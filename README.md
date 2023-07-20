@@ -116,6 +116,29 @@ Using the `resample()` function is particularly useful when working with time-se
 Feel free to incorporate `resample()` into your time-series data analysis workflow to efficiently handle different time frequencies and perform insightful analyses! 📅📈
 
 ---
+## The main loop running the system 🔄
+
+The provided code displays the association rules generated from the Market Basket Analysis using the Apriori algorithm. Let's explain the loop step by step:
+
+1. `for rule in rules:`: This is a for loop that iterates through each rule in the `rules` object. In Market Basket Analysis, the `rules` object contains the generated association rules.
+
+2. `antecedents = list(rule.items)`: Here, we extract the antecedents (items on the left-hand side of the rule) from the current rule and store them in the `antecedents` list.
+
+3. `consequents = list(rule.ordered_statistics[0].items_base)`: This line extracts the consequents (items on the right-hand side of the rule) from the current rule and stores them in the `consequents` list.
+
+4. `support = rule.support`: The `support` represents the proportion of transactions that include both the antecedents and consequents. It indicates the popularity of the rule in the dataset.
+
+5. `confidence = rule.ordered_statistics[0].confidence`: The `confidence` measures the likelihood that the consequents will be purchased given that the antecedents are purchased. It provides an indication of the strength of the association between the items.
+
+6. `lift = rule.ordered_statistics[0].lift`: The `lift` quantifies how much more likely the consequents are to be purchased when the antecedents are purchased compared to when they are purchased independently. It indicates the strength of the association rule.
+
+7. `print()`: The `print()` statements display the extracted rule and the corresponding metrics (support, confidence, and lift) in a readable format.
+
+8. `count += 1` and `if count == 5: break`: These lines are used to control the loop and limit the number of rules displayed. The loop will stop after displaying the first 5 rules.
+
+The loop iterates through the association rules, extracting the antecedents, consequents, support, confidence, and lift for each rule, and then prints them in an easily understandable format. This allows you to examine the top 5 association rules based on the defined criteria (e.g., support, confidence, or lift) and gain insights into the relationships between items in the dataset.
+
+---
 
 ## How to Run the Project ▶️
 
