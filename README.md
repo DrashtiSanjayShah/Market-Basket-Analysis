@@ -1,10 +1,11 @@
 **Market Basket Analysis Project** 🛒📊
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAffinity_analysis&psig=AOvVaw05Nv0jZl36w5TnE1dk5H1o&ust=1689966416956000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPC-ydH9nYADFQAAAAAdAAAAABAE![image](https://github.com/DrashtiSanjayShah/Market-Basket-Analysis/assets/94853646/f4c8384c-a896-46e9-bba2-d29049677864)
+https://upload.wikimedia.org/wikipedia/commons/4/4a/AffinityAnalysis.png
 
 
 ## Overview 📋
 
 Market Basket Analysis (MBA) is a powerful technique used by retailers and businesses to identify relationships between products frequently purchased together by customers. In this project, we will perform Market Basket Analysis using Python and popular libraries like NumPy, Pandas, Matplotlib, and the Apriori algorithm from the Apyori library.
+
 
 ## Project Objectives 🎯
 
