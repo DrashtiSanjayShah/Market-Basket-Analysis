@@ -1,6 +1,4 @@
 **Market Basket Analysis Project** 🛒📊
-https://upload.wikimedia.org/wikipedia/commons/4/4a/AffinityAnalysis.png
-
 
 ## Overview 📋
 
